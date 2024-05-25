@@ -10,8 +10,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl":"/imgs/titannic.jpg",
-       "imgMovieUrl":"/imgs/Titanic.jpg"
+       "imgJewelUrl":"https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/titannic.jpg",
+       "imgMovieUrl":"https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Titanic.jpg"
     },
 
     {
@@ -25,8 +25,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/Antonia.jpg",
-       "imgMovieUrl": "/imgs/Antoniapeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Antonia.jpg",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Antoniapeli.jpg"
     },
 
     {
