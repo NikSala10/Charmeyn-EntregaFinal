@@ -40,8 +40,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "../imgs/Brigerton.jpg",
-       "imgMovieUrl": "../imgs/Brigertonpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Brigerton.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Brigertonpeli.jpg?raw=true"
     },
 
     {
@@ -55,8 +55,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/B.jpg",
-       "imgMovieUrl": "/imgs/Girl.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/B.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Girl.jpg?raw=true"
     },
 
     {
@@ -70,8 +70,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/Ocean.jpg",
-       "imgMovieUrl": "/imgs/Oceanpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Ocean.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Oceanpeli.jpg?raw=true"
     },
 
     {
@@ -85,8 +85,8 @@
        "type": "Ring",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/Sultan1.jpg",
-       "imgMovieUrl": "/imgs/Sultanpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Sultan1.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Sultanpeli.jpg?raw=true"
     },
 
     {
@@ -100,8 +100,8 @@
        "type": "Necklace",
        "news": true,
        "offer": false,
-       "imgJewelUrl": "/imgs/Sultan2.jpg",
-       "imgMovieUrl": "/imgs/Sultanpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Sultan2.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Sultanpeli.jpg?raw=true"
     },
 
     {
@@ -115,8 +115,8 @@
        "type": "Necklace",
        "news": false,
        "offer": true,
-       "imgJewelUrl": "/imgs/Brigerton2.jpg",
-       "imgMovieUrl": "/imgs/Brigertonpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Brigerton2.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Brigertonpeli.jpg?raw=true"
     },
 
     {
@@ -130,8 +130,8 @@
        "type": "Necklace",
        "news": true,
        "offer": false,
-       "imgJewelUrl": "/imgs/Game of Thrones.jpg",
-       "imgMovieUrl": "/imgs/gametronespeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Game%20of%20Thrones.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/gametronespeli.jpg?raw=true"
     },
 
     {
@@ -145,8 +145,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/inception.jpg",
-       "imgMovieUrl": "/imgs/inceptionpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/inception.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/inceptionpeli.jpg?raw=true"
     },
 
     {
@@ -160,8 +160,8 @@
        "type": "Ring",
        "news": true,
        "offer": false,
-       "imgJewelUrl": "/imgs/Chernobyl.jpg",
-       "imgMovieUrl": "/imgs/chernobylpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Chernobyl.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/chernobylpeli.jpg?raw=true"
     },
 
     {
@@ -175,8 +175,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/Friends.jpg",
-       "imgMovieUrl": "/imgs/Friendsserie.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Friends.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Friendsserie.jpg?raw=true"
     },
 
     {
@@ -190,8 +190,8 @@
        "type": "Necklace",
        "news": false,
        "offer": true,
-       "imgJewelUrl": "/imgs/Forrest Gump.jpg",
-       "imgMovieUrl": "/imgs/pulppeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Forrest%20Gump.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/pulppeli.jpg?raw=true"
     },
 
     {
@@ -205,8 +205,8 @@
        "type": "Necklace",
        "news": true,
        "offer": false,
-       "imgJewelUrl": "/imgs/The matrix.jpg",
-       "imgMovieUrl": "/imgs/The matrixpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/The%20matrix.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/The%20matrixpeli.jpg?raw=true"
     },
 
     {
@@ -220,8 +220,8 @@
        "type": "Necklace",
        "news": false,
        "offer": false,
-       "imgJewelUrl": "/imgs/Stranger.jpg",
-       "imgMovieUrl": "/imgs/Strangerpeli.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Stranger.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Strangerpeli.jpg?raw=true"
     },
 
     {
@@ -235,8 +235,8 @@
        "type": "Ring",
        "news": false,
        "offer": true,
-       "imgJewelUrl": "/imgs/Gambit1.jpg",
-       "imgMovieUrl": "/imgs/gambit.jpg"
+       "imgJewelUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/Gambit1.jpg?raw=true",
+       "imgMovieUrl": "https://github.com/NikSala10/Charmeyn-EntregaFinal/blob/main/imgs/gambit.jpg?raw=true"
     }
 
     
