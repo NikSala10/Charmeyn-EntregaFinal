@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    background-color:#730E12;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.information {
+    background-color: white;
+    height: 648px;
+    width: 600px;
+    box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    display: flex;
+    justify-content: space-between;
+    order: 1;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+    margin-top:-655px;
+    margin-left: 710px;
+}
+
+.apartado-princial {
+    order: 1;
+    width: 700px;
+    margin-left:20px ;
+    margin-top:  -50px ;
+}
+#img1 {
+    width: 700px;
+    height: 650px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 10px;
+    
+}
+
+.info-contacto svg.icono {
+    margin-left: 285px;
+}
+.info-contacto input  {
+    outline: none;
+}
+
+.titulo-1 {
+    margin-top: 100px;
+    display: inline-flex;
+    margin-left: 230px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;    
+}
+
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-position: 5px 10%;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.info-contacto input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.546);
+    border-radius: 0;
+    width: 280px;
+    height: 35px;
+    padding-left: 30px;
+    margin: 8px;
+    color: rgba(128, 128, 128, 0.546);
+    margin-top: 40px;
+}
+
+.info-contacto svg {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 15px;
+    color: rgba(128, 128, 128, 0.546);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.botom {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+
+.botom p {
+   
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.546);
+    cursor: pointer;
+    
+}
+
+.botom input {
+    border: none;
+    width: 180px;
+    height: 40px;
+    background-color: #730E12;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    justify-content: center;
+    
+}
+
+.botom input[type="submit"]:hover {
+    background-color: #580307;
+}
+
+
+#email{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: column;
+   
+}
+#password{
+    margin-top: 80px ;
+    display: flex;
+    flex-direction: column;
+}
+#escrito
+{
+    margin-left: 200px;
+    cursor: pointer;
+}
+.loginForm
+{
+    margin-left:110px;
+}
+#return{
+    margin-left:27px;
+}

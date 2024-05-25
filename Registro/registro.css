@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    background-color: #730E12;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;  
+    padding: 80px;
+    width: 600px;
+    height: 414px;
+    margin-right:40px ;
+    margin-top:-4px;
+}
+form input  {
+    outline: none;
+}
+#login  {
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.546);
+    border-radius: 0;
+    width: 280px;
+    height: 50px;
+    margin: 0;
+    color: rgba(128, 128, 128, 0.546);
+    margin-top: 35px;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #730E12;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 35px;
+    margin-left:200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #580307;
+}
+
+#img1{
+height: 575px;
+width: 700px ;
+margin-left: 40px;
+z-index: 1;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+#confirmPassword
+{
+    margin-left:-13px;
+
+}
+#email
+{
+    margin-left:14px;
+}
+#lastName
+{
+    margin-left:14px;
+}
+#Retorno  {
+    color:rgba(170, 170, 170, 0.882);
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 230px;
+    margin-top: 4px;
+}
