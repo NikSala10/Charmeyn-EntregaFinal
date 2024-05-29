@@ -1,4 +1,9 @@
 const loginForm = document.querySelector('.loginForm');
+localStorage.setItem('login_success', JSON.stringify(false));
+
+localStorage.setItem('register_success', JSON.stringify(false));
+
+
 loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const email = document.getElementById('email').value;
@@ -15,9 +20,15 @@ loginForm.addEventListener('submit', (e) => {
         return alert('Usuario y/o contraseña incorrectos!');
     }
     alert("Bienvenido a Charmeyn " + validUser.firstName);
-    localStorage.setItem('login_success', JSON.stringify(validUser));
-    window.location.href = '../Myaccountpage/account.html';  
+      localStorage.setItem('login_success', JSON.stringify(validUser));
+
+    // Verificar si ya está logueado
+    if (localStorage.getItem('login_success')) {
+        window.location.href = '../Myaccountpage/account.html';
+    }
 });
+
+    
 function redirectToSignUp() {
     window.location.href = "../Registro/registro.html";
 }

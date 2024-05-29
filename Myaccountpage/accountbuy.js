@@ -25,8 +25,8 @@ createHtml ()  {
                     <input type="radio" name="slider" id="${this.ref}_2">
             
                 <div class="content">
-                    <div class="firstslide"><img src="../Mainpage/${this.imgJewelUrl}" alt=""></div>
-                    <div class="secondslide"><img src="../Mainpage/${this.imgMovieUrl}" alt=""></div>
+                    <div class="firstslide"><img src="${this.imgJewelUrl}" alt=""></div>
+                    <div class="secondslide"><img src="${this.imgMovieUrl}" alt=""></div>
                     
                 </div>
 

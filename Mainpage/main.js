@@ -1,7 +1,7 @@
 let listOfProducts = []
 
 async function fetchAndCreateAllProducts() {
-    await fetch('https://raw.githubusercontent.com/NikSala10/Charmeyn-EntregaFinal/main/data.json') // Replace with your actual API endpoint
+    await fetch('https://raw.githubusercontent.com/NikSala10/Charmeyn-EntregaFinal/main/data.json') 
         .then(response => response.json())
         .then(data => {
             for(let i = 0; i < data.length; i++) {
@@ -16,10 +16,11 @@ async function fetchAndCreateAllProducts() {
                 let product = new Product(ref, name, character, material, price, imgJewelUrl, imgMovieUrl)
                 listOfProducts.push(product)
             }
-            fillScreenWithProducts(); // Call this after the products have been created
+            fillScreenWithProducts();
         })
         .catch(error => console.error('Error fetching data:', error));
 }
+
 
 function fillScreenWithProducts() {
     const container = document.getElementById("seccion-productos")
@@ -30,12 +31,10 @@ function fillScreenWithProducts() {
     }
 }
 
-// Fetch and create products, then fill the screen
 fetchAndCreateAllProducts();
 
 
- function seeDetail(ref) {
-    
+ function seeDetail(ref) { 
     window.location.href = "../Detalle/detalle.html?id="+ref
 }
 
@@ -61,11 +60,22 @@ function redirectToFilms() {
 function redirectToSeries() {
     window.location.href = "../Series/series.html";
 }
-function redirectToFavorite() {
-    window.location.href = "../Favoritepage/favorite.html";
+const loginSuccess = JSON.parse(localStorage.getItem('login_success'));
+const registerSuccess = JSON.parse(localStorage.getItem('register_success'));
+
+function redirectToFavorite(refFromUrl) {
+    if (loginSuccess || registerSuccess) {
+    window.location.href = "../Favoritepage/favorite.html?id="+refFromUrl ;
+    }
+    else { 
+        window.location.href = "../Login/login.html";
+    }
 }
 function redirectToLogin() {
-    window.location.href = "../Login/login.html";
+    if (loginSuccess || registerSuccess) {
+        window.location.href = "../Myaccountpage/account.html";
+        }
+        else { 
+            window.location.href = "../Login/login.html";
+        }
 }
-
-

@@ -23,8 +23,10 @@ signupForm.addEventListener('submit', (e) => {
     if (isUserRegistered) {
         alert('El usuario ya está registrado. Serás redirigido al inicio de sesión.');
     } else {
-        Users.push({ firstName: firstName, lastName: lastName, phoneNumber: phoneNumber, email: email, password: password });
+        Users.push({ firstName: firstName, lastName: lastName, phoneNumber: phoneNumber, email: email, password: password});
         localStorage.setItem('users', JSON.stringify(Users));
+        localStorage.setItem('favorites', JSON.stringify([]))
+        localStorage.setItem('register_success', JSON.stringify(true));
         alert('Registro Exitoso. Serás redirigido al inicio de sesión.');
     }
     

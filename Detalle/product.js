@@ -21,7 +21,7 @@ createHtmlDetalle ()  {
     return  `
     <div class= "info-prodt">
         <div class="imagen">
-            <img src="../Mainpage/${this.imgJewelUrl}" alt="">
+            <img src="${this.imgJewelUrl}" alt="">
         </div>
         <div class="descripcion-producto">
             <h2>${this.name}</h2>
@@ -52,7 +52,7 @@ createHtmlDetalle ()  {
                     <h2 class="IVA">(Incluinding IVA):  $${formattedIva}</h2>                       
                     <h2 class="total">Total: $${formattedTotalPrice}</h2> 
                 <div class="boton">
-                    <input onclick= "showNoticeSuccessfulPurchase()"id="compra-boton" type="button" value="Confirm Purchase">
+                    <input onclick= "showNoticeSuccessfulPurchase()" id="compra-boton" type="button" value="Confirm Purchase">
                 </div>
                 
         </div>

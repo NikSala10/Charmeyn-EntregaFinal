@@ -1,47 +1,48 @@
 let listOfProducts = []
 
-function createAllProducts () {
-    let object8 = data[8];
-    let object13 = data[13];
+function fetchAndCreateAllProducts() {
+    const user = JSON.parse(localStorage.getItem('login_success')) || [];
 
-    let ref8 = object8.ref;
-    let name8 = object8.name;
-    let character8 = object8.character;
-    let material8 = object8.material;
-    let price8 = object8.price;
-    let imgJewelUrl8 = object8.imgJewelUrl;
-    let imgMovieUrl8 = object8.imgMovieUrl;
-    let product8 = new Product(ref8, name8, character8, material8, price8, imgJewelUrl8, imgMovieUrl8);
-
-
-    let ref13 = object13.ref;
-    let name13 = object13.name;
-    let character13 = object13.character;
-    let material13 = object13.material;
-    let price13 = object13.price;
-    let imgJewelUrl13 = object13.imgJewelUrl;
-    let imgMovieUrl13 = object13.imgMovieUrl;
-    let product13 = new Product(ref13, name13, character13, material13, price13, imgJewelUrl13, imgMovieUrl13);
-
-
-
-    listOfProducts.push(product8, product13);
+    let userbuy = JSON.parse(localStorage.getItem(`buy_${user.email}`)) || [];
+    
+    
+    for(let i = 0; i < userbuy.length; i++) {
+        let object = userbuy[i]
+        let ref = object.ref
+        let name = object.name
+        let character = object.character
+        let material = object.material
+        let price = object.price
+        let imgJewelUrl = object.imgJewelUrl
+        let imgMovieUrl = object.imgMovieUrl
+        let product = new Product(ref, name, character, material, price, imgJewelUrl, imgMovieUrl)
+        listOfProducts.push(product)
+    }
 }
 
 function fillScreenWithProducts ()  {
     const container = document.getElementById("seccion-productos")
     container.innerHTML = ""; 
     for(let i = 0; i < listOfProducts.length; i++)  {
-        const product = listOfProducts[i].createHtml()
+        const product = listOfProducts[i].createHtml();
         container.innerHTML += product;
-        console.log(product);
     }
+
+}
+const user = JSON.parse(localStorage.getItem('login_success'));
+if (user != null) {
+    const nameHTML = document.getElementById("nombre")
+    const emailHTML = document.getElementById("email")
+
+    const nameUser = user.firstName
+    const emailUser = user.email
+    nameHTML.innerHTML = nameUser
+    emailHTML.innerHTML = emailUser
+
 }
 
-
- createAllProducts()
- fillScreenWithProducts()
-
+ fetchAndCreateAllProducts()
+ fillScreenWithProducts () 
  function redirectToIndex() {
     window.location.href = "../index.html";
 }
@@ -69,5 +70,9 @@ function redirectToFavorite() {
 }
 function redirectToMyAccount() {
     window.location.href = "account.html";
+}
+function redirectToLogin() {
+    window.location.href = "../Login/login.html";
+    localStorage.setItem('login_success', false);
 }
 

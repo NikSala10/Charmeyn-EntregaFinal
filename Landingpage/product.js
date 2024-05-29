@@ -1,6 +1,10 @@
 class Product  {
 
-    constructor(imgJewelUrl,price, character)  {
+    constructor(ref, name, character, material, price, imgJewelUrl, imgMovieUrl)  {
+        this.ref = ref
+        this.name = name
+        this.material = material
+        this.imgMovieUrl = imgMovieUrl
         this.imgJewelUrl = imgJewelUrl
         this.price = price
         this.character = character   
@@ -13,7 +17,7 @@ createHtml ()  {
     return  `
     <div class="Subproduct-1" >
                 <div class="cuadro1">
-                    <img class="product1" src="./Mainpage/${this.imgJewelUrl}" alt="">
+                    <img class="product1" src="${this.imgJewelUrl}" alt="">
                 </div>
                 <div class="info-product">
                     <p class="precio">$${formattedPrice}</p>
