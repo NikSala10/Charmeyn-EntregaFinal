@@ -1,7 +1,7 @@
 let listOfProducts = []
 
-function fetchAndCreateAllProducts() {
-    fetch('https://raw.githubusercontent.com/NikSala10/Charmeyn-EntregaFinal/main/data.json') // Replace with your actual API endpoint
+async function fetchAndCreateAllProducts() {
+    await fetch('https://raw.githubusercontent.com/NikSala10/Charmeyn-EntregaFinal/main/data.json') // Replace with your actual API endpoint
         .then(response => response.json())
         .then(data => {
             for(let i = 0; i < data.length; i++) {
@@ -32,6 +32,8 @@ function fillScreenWithProducts() {
 
 // Fetch and create products, then fill the screen
 fetchAndCreateAllProducts();
+
+
  function seeDetail(ref) {
     
     window.location.href = "../Detalle/detalle.html?id="+ref
