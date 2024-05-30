@@ -91,3 +91,14 @@ function redirectToLogin() {
             window.location.href = "../Login/login.html";
         }
 }
+if (loginSuccess) {
+    const user = JSON.parse(localStorage.getItem('login_success')) || [];
+    let userFavorites = JSON.parse(localStorage.getItem(`favorites_${user.email}`)) || [];
+    let count = 0
+   
+    const numberCount = document.getElementById("carroContador")
+    numberCount.innerHTML =  
+    `<div class="circulo">
+        <p id="numero">${userFavorites.length}</p>
+    </div> `
+}

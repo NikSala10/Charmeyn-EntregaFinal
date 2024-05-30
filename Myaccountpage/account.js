@@ -18,6 +18,7 @@ function fetchAndCreateAllProducts() {
         let product = new Product(ref, name, character, material, price, imgJewelUrl, imgMovieUrl)
         listOfProducts.push(product)
     }
+   
 }
 
 function fillScreenWithProducts ()  {
@@ -75,4 +76,15 @@ function redirectToLogin() {
     window.location.href = "../Login/login.html";
     localStorage.setItem('login_success', false);
 }
+
+    const users = JSON.parse(localStorage.getItem('login_success')) || [];
+    let userFavorites = JSON.parse(localStorage.getItem(`favorites_${user.email}`)) || [];
+    let count = 0
+   
+    const numberCount = document.getElementById("carroContador")
+    numberCount.innerHTML =  
+    `<div class="circulo">
+        <p id="numero">${userFavorites.length}</p>
+    </div> `
+
 

@@ -68,7 +68,7 @@ async function showNoticeSuccessfulPurchase() {
             let buyProduct = JSON.parse(localStorage.getItem(`buy_${emailUser}`)) || [];
             let isbuyProduct = buyProduct.find(p => p.ref === product.ref)
             if (!isbuyProduct) {
-                userFavorites.push({
+                buyProduct.push({
                 ref: product.ref,
                 name: product.name,
                 character: product.character,
@@ -133,4 +133,15 @@ function redirectToLogin() {
     else{
         window.location.href = "../Login/login.html";
     }
+}
+if (loginSuccess) {
+    const user = JSON.parse(localStorage.getItem('login_success')) || [];
+    let userFavorites = JSON.parse(localStorage.getItem(`favorites_${user.email}`)) || [];
+    let count = 0
+   
+    const numberCount = document.getElementById("carroContador")
+    numberCount.innerHTML =  
+    `<div class="circulo">
+        <p id="numero">${userFavorites.length}</p>
+    </div> `
 }

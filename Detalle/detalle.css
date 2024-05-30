@@ -64,30 +64,22 @@ nav  {
 .icon-user  {
   width: 40%;
   text-align: right;
-  margin-right: 50px;
+  margin-right: 9px;
 }
 #icono-carro
 {
-  margin-top:-11px ;
   margin-right: 20px;
 }
 
-#carroContador{
-  position: absolute;
-  top: 6%; 
-  right: 30px; 
+.circulo {
+ position: relative;
+  top: 6%;  
   background-color: #3d0202; 
   color: #ffffff;
   border-radius: 50%;
   width: 14px;
   height: 15px;
-  font-size: 8px;
-
-}
-.circulo {
- position: relative;
-  margin-top:10%;
-  margin-right:200px;
+  font-size: 8px; 
 }
 #numero  {
 margin-left: 5px;
@@ -218,6 +210,7 @@ ul {
     }
   }
 }
+
   
 .infor {
   background-color: #4a0609;

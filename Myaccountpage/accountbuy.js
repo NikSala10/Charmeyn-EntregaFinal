@@ -45,7 +45,8 @@ createHtml ()  {
                 <p class="character">${this.character}</p>
                 <p class="description-product">${this.material}</p>
                 <p class="precio">$${formattedPrice}</p>
-            </div>                                      
+            </div>    
+        </div>                                  
     </div>
     `;
 }
